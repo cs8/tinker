@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         //test resource change
         Log.e(TAG, "i am on onCreate string:" + getResources().getString(R.string.test_resource));
 //        Log.e(TAG, "i am on patch onCreate");
+        //tinkerId
 
         Button loadPatchButton = (Button) findViewById(R.id.loadPatch);
 
